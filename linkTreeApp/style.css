@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+}
+
+a {
+	display:block;
+	text-decoration: none;
+}
+
+.container {
+	margin: 100px 80px;
+	background-color: black;
+}
+
+header {
+	text-align: center;
+	color: white;
+}
+
+header img {
+	width: 100px;
+	border-radius: 50%;
+	border: 1px solid gold;
+}
+
+main {
+	text-align: center;
+}
+
+.btn {
+	font-weight: bold;
+	line-height: 40px;
+	height: 40px;
+	border: 1px solid black;
+	color: white;
+	margin-bottom: 15px;
+	opacity: 0.8;
+	box-shadow: 0 5px gold;
+	border-radius: 5px;
+	background-color: blueviolet;
+}
+
+.btn:active {
+	position: relative;
+	box-shadow: none;
+	top: 5px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+
+footer span {
+	color: gold;
+}
