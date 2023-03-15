@@ -57,10 +57,11 @@ header .menu-icon {
 
 /* CSS Bagian Main */
 
-main {
+.hero {
   height: 520px;
   background-image: url(./image/bg-alter.png);
   background-size: cover;
+	width: 100%;
 }
 
 /* End of CSS Main */
