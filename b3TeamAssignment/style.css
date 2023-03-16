@@ -44,9 +44,9 @@ header {
 }
 
 .head-list a:hover {
-  color: rgb(131, 166, 241);
+  color: #F97F51;
   padding-bottom: 41px;
-  border-bottom: 6px solid rgb(131, 166, 241);
+  border-bottom: 6px solid #F97F51;
 }
 
 header .menu-icon {
@@ -106,7 +106,7 @@ blockquote:after {
   height: 350px;
   border-radius: 30px;
   transition: 0.5s;
-  border: 1px solid rgb(131, 166, 241);
+  border: 1px solid #F97F51;
 }
 
 .product img:hover {
@@ -149,7 +149,7 @@ blockquote:after {
   height: 350px;
   border-radius: 30px;
   transition: 0.5s;
-  border: 1px solid rgb(131, 166, 241);
+  border: 1px solid #F97F51;
 }
 
 .grid-child img:hover {
@@ -157,6 +157,57 @@ blockquote:after {
   transform: scale(1.1);
 }
 /* End of section Best-seller */
+
+/* Formulir CSS */
+#contact-form {
+  height: 200px;
+  background-image: url(./src/books/form0.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.section-title h3 {
+  font-size: 36px;
+  color: white;
+  padding-top: 20px;
+  font-weight: Bold;
+}
+
+.section-title h5 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact-name {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: transparent;
+  border: 2.5px solid #dfe6e9;
+  margin: 0 10px;
+}
+
+.contact-submit {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #F97F51;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.3s
+}
+
+.contact-submit:hover {
+  background-color: #FEA47F;
+  color: white;
+}
 
 
 /* Start Footer */
@@ -221,6 +272,8 @@ footer {
   clear: left;
 }
 
+
+
 /* Responsive */
 @media (max-width: 1000px) {
   header {
@@ -244,6 +297,27 @@ footer {
 
   .footer-aset {
     width: 50%;
+  }
+
+  .section-title h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .section-title h5 {
+    font-size: 9px;
+    margin-bottom: 5px;
+  }
+  .contact-name, .contact-submit {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 9px;
+  }
+  .contact-name {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .contact-submit {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 }
 
@@ -277,4 +351,8 @@ footer {
     width: 100%;
     margin: 0 auto;
   }
+
+  .contact-form {
+    height: 100px;
+    }
 }
