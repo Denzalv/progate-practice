@@ -107,6 +107,7 @@ blockquote:after {
   border-radius: 30px;
   transition: 0.5s;
   border: 1px solid #F97F51;
+  cursor: pointer;
 }
 
 .product img:hover {
@@ -150,6 +151,7 @@ blockquote:after {
   border-radius: 30px;
   transition: 0.5s;
   border: 1px solid #F97F51;
+  cursor: pointer;
 }
 
 .grid-child img:hover {
@@ -244,7 +246,7 @@ footer {
   color: #b3aeb5;
 }
 .footer-list a:hover {
-  color: rgb(131, 166, 241);
+  color: #F97F51;
 }
 .footer-list p {
   font-size: 24px;
@@ -265,7 +267,7 @@ footer {
   color: #b3aeb5;
 }
 .social-media a:hover {
-  color: rgb(131, 166, 241);
+  color: #F97F51;
 }
 
 .clear {
