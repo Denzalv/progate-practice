@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Get a FizzBuzz Result!</h1>
+    <label for="nomor">Type a number:</label>
+    <input type="number" id="nomor" />
+    <input type="button" value="Click Here!" id="submit" />
+
+    <hr />
+
+    <p id="sini"></p>
+    <script>
+      let sub = document.getElementById("submit");
+      let hasil = document.getElementById("sini");
+      let isi = document.createElement("p");
+      let input = document.getElementById("nomor");
+
+      sub.addEventListener("click", function () {
+        let data = input.value;
+				
+        if (data === "0" || data === "" || data === "undefined") {
+          isi.innerHTML = "invalid input";
+        } else if (data % 3 === 0 && data % 5 === 0) {
+          isi.innerHTML = "FizzBuzz";
+        } else if (data % 3 === 0) {
+          isi.innerHTML = "Fizz";
+        } else if (data % 5 === 0) {
+          isi.innerHTML = "Buzz";
+        } else {
+          isi.innerHTML = data;
+        }
+      });
+      hasil.appendChild(isi);
+    </script>
+  </body>
+</html>
