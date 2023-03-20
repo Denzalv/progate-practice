@@ -18,10 +18,10 @@
     <script>
       let sub = document.getElementById("submit");
       let hasil = document.getElementById("sini");
-      let isi = document.createElement("p");
-      let input = document.getElementById("nomor");
-
+      
       sub.addEventListener("click", function () {
+        let isi = document.createElement("p");
+        let input = document.getElementById("nomor");
         let data = input.value;
 				
         if (data === "0" || data === "" || data === "undefined") {
@@ -35,8 +35,10 @@
         } else {
           isi.innerHTML = data;
         }
+        hasil.append(isi)
       });
-      hasil.appendChild(isi);
+
+      
     </script>
   </body>
 </html>
