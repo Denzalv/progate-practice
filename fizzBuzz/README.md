@@ -1,1 +1,1 @@
-# masih ada beberapa kekurangan
+ tinggal menambahkan warna merah apabila invalid
